@@ -6,7 +6,7 @@ body{
 }
 
 h1{
-  color: #3008a7;
+  color: #283C50;
 
 }
 
@@ -26,6 +26,7 @@ input, select{
   padding: 2rem;
   text-align: center;
 
+
 }
 
 .cryptoContainer{
@@ -35,6 +36,10 @@ input, select{
   display: flex;
   flex-wrap: wrap;
   gap:2rem;
+
+
+ 
+
 }
 
 .cryptoCard{
@@ -43,6 +48,11 @@ input, select{
   padding: 1rem;
   margin-top: 1rem;
   max-width: 375px;
+
+
+
+ 
+
 
  
 &:hover{
@@ -53,6 +63,7 @@ input, select{
   background-color: #B6B6B6;
 }
 
+/* Some additional CSS for the images*/
 img{
   width:60px;
   height:60px;
@@ -83,3 +94,22 @@ margin-top: auto;
 }
 
 
+.Crypto-Image {
+  overflow: hidden;
+  transition-duration: 5s;
+  transition-property: transform;
+}
+.Crypto-Image:hover {
+  transform: rotate(360deg);
+  /* -webkit-transform: rotate(360deg); */
+}
+
+/* CSS Flex for responsiveness for long texts inside the P tag ,
+ it prevents from getting out of the div card for all types of devices*/
+
+.cryptoContainer p{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+}
