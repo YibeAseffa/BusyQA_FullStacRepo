@@ -9,9 +9,10 @@ function mul(x,y){
 }
 function div(x,y){
     if(y==0){
-        throw new Error('Can not devided by zero')
-    }
+        throw new Error('Can not divided by zero');
+    } 
     return x/y;
+    
 }
 
 function calculator(operator,a,b){
