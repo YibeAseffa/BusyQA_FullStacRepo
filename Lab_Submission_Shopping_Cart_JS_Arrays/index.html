@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatiable" content="IE=edge">
+        <meta name="vieport" content="width=device-width, initial-scale=1.0">
+        <title> Shopping Cart</title>
+    </head>
+    <body>
+  <div class="main">
+        <h1>Simple JS Shopping Cart</h1>
+            
+        <button  onclick="displayCart()" type="button" class="shopping-cart-button float-right" >
+            <i class="fa fa-shopping-cart"></i>
+            <span class="text">Shopping Cart <p class="items-left" id="itemsLeft"></p></span>
+          </button>
+          
+           <br> <br><br>
+           <div><ol id="cartItems"> </ol>  </div>
+           <br><br>
+           
+          Please enter Item number to Remove
+          <input type="number"  id="itemNumber" value="1"  max="3" min="1"> <br>
+          <br>
+         
+                   
+        <button  onclick="removeItemFromCart(document.getElementById('itemNumber').value)" type="button" class="shopping-cart-remove-button float-right" >
+            <i class="fa fa-trash"></i>
+            <span class="text">Remove Item</span>
+          </button>  <br> <br><br>  
+          <div><ol id="itemsAfterRemove"> </ol> </div>
+          <br>
+
+          <button  onclick="showTotal()" type="button" class="shopping-cart-total-button float-right" >
+            <i class="fa fa-money"></i>
+            <span class="text">Total price</span>
+          </button> 
+          <br><br><br>
+<h3>
+         <div><p id="total"> </p> 
+          
+
+         
+         
+
+          <p id="discount"> </p> 
+    <p>Congratulations! You Saved 10% today</p>
+</div> 
+          </h3>
+        <script src="shoppingCart.js"></script>
+    </div>
+     </body>
+</html>
