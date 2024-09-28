@@ -3,11 +3,12 @@ import '@fortawesome/fontawesome-free/css/all.min.css'
 
 const Post = ({ message }) => {
   
-  const [comments, setComments] = useState([]); // KSX array forn storing comments
+  const [comments, setComments] = useState([]); // JSX array forn storing comments
   const [newComment, setNewComment] = useState(''); // for new arriving comments
   const [likes, setLikes] = useState(0); // Likes satrts from 0
   const [dislikes, setDisLikes] = useState(0); // Dis-Likes satrts from 0
   const [countComments, setCountComments] = useState(0); // Comment counts satrts from 0
+  
 
 
 
@@ -15,20 +16,20 @@ const Post = ({ message }) => {
   const handleLike = () => {
     setLikes(likes + 1); 
   };
-
+  //Event handler for dis-like button to increment by one
   const handleDisLike = () => {
     setDisLikes(dislikes + 1); 
   };
 
-  // Event handler for submittind comment
+   //Event handler for like button to submit comment
   const handleCommentSubmit = (e) => {
     e.preventDefault();
     if (newComment.trim()) {
       const timestamp = new Date().toLocaleString(); 
-      setComments([...comments, { text: newComment, time: timestamp }]); // Add comment 
-      setNewComment(''); // Clear input field
+      setComments([...comments, { text: newComment, time: timestamp }]);  // set comments with their respective timestamp using Date() function
+      setNewComment(''); 
 
-      setCountComments(countComments + 1); 
+      setCountComments(countComments + 1);  //increment number of comments
 
     }
   };
