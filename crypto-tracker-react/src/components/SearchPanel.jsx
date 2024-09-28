@@ -5,10 +5,13 @@ const SearchPanel =(props)=>{
     const [searchText, setSearchText]=useState(''); //states for search panel
 
     const handleClick=()=>{
-        alert('button clicked');
+        //alert('button clicked');
+        props.searchCallback(searchText); 
     }
-    const handleSelectChange=()=>{
-        alert('select change');
+    const handleSortTypeChnage=(event)=>{
+        
+        //alert('select change');
+        props.sortTypeCallback(event.target.value)
     }
     const handleKeyDown=(e)=>{  
        //handling key down for ENTER button. 
@@ -32,14 +35,14 @@ const SearchPanel =(props)=>{
          type="text"
          placeholder="Search for CryptoCurrency" 
          value={searchText}/>
-     <select onChange={handleSelectChange}> 
+     <select onChange={handleSortTypeChnage}> 
                     <option value="current_price">Current Price</option>
                     <option value="market_cap">Market Cap</option>
                     <option value="total_volume">24h Volume</option>
                     <option value="price_change">24h Change</option>
                 </select>
     
-    <button onClick={handleClick}>Search</button>
+    <button style={{height:40, width:100}} onClick={handleClick}><i className='fa-solid fa-search'></i>Search</button>
     </>
 }
 
