@@ -24,6 +24,12 @@ How to setup and run:
 5. Run the project using
     npm start
 
+
+Credit: 
+Step by step tutorials and Implementation videos from Gemini Matrix Technology youtube channel
+  [Gemini Matrix Technology](https://www.youtube.com/@geminimatrixtech)
+  
+
 Submitted  by:
  
 Yibeltal N. Aseffa 
