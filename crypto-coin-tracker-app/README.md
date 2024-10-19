@@ -1,17 +1,24 @@
 Notes:
 1. This submission is a project on Crypto Coin Tracker using MERN stack 
+
             React for Frontend
+
             Node JS for Backend
+            
             Express JS for web server
+            
             MongoDb database
 
 
 2. For the router I used React Router can be foud at : 
             https://reactrouter.com/en/main
+            
             use the command : npm install react-router-dom
+
 3.  For crypto coin data, I fetched from the api : https://coinmarketcap.com/api/documentation/v1/#operation/getV1ExchangeListingsLatest 
    
-   For watch list I used NodeJs back end with Express JS web server and MongoDb database
+      For watch list I used NodeJs back end with Express JS web server and MongoDb database (Add to watchlist, Get all and delete watchlist)
+
 4.  You need to include the API key and corresponding value for the crypro-coin api
 5. Also you need to install and allow google chrome extenssion for passing CORS error:
         https://chromewebstore.google.com/search/CORS
