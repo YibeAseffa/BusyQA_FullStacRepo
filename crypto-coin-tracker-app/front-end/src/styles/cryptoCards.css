@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1{
+    color: #283C50;
+    margin-bottom: 2rem;
+  
+  }
+  
+  input, select{
+    margin: 1rem 0.5rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    outline: none;
+    width: 250px;
+
+  }
+  
+  .app{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    padding: 2rem;
+    text-align: center;
+  
+  
+  }
+  
+  .crypto-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+    background-color: #F0F5F5;
+
+    gap:2rem;
+  
+  
+   
+  
+  }
+  
+  .crypto-card{
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 1rem;
+    max-width: 375px;
+    text-align: center;
+
+    img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 1rem;
+      }
+      h2{
+        margin: 0.5rem 0;
+        color:#02020e
+      
+      }
+      p{
+        color:#020214;
+        margin:0.2rem 0;
+      }
+
+      &:hover{
+        /* transform: translateY(-5px);*/
+        zoom: 1.1; 
+        transform: scale(1.2);
+        transition: background-color 2s ease-out 100ms;
+        background-color: #B6B6B6;
+      }
+      
+  
+  }
+
+
+  .navigation-container{
+    display: flex;
+    justify-content: left;
+  }
+
+  nav ul{
+    list-style-type: none;
+    padding: 10;
+    text-align: center;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    margin-right: 20 px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1f5e77;
+  }
+  
+ 
+   li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  
+  
+  
+   
