@@ -1,8 +1,11 @@
 Notes:
 
 React for Frontend
+
 Node JS for Backend
+
 Express JS for web server
+
 MongoDb database
 
 1.  This submission is a project on Crypto Coin Tracker using React
