@@ -1,3 +1,14 @@
+
+
+![Dashboard](https://github.com/user-attachments/assets/2df8bca6-3cb8-4e69-a96d-e6f2f93eed42)
+
+
+
+
+
+![Watchlist](https://github.com/user-attachments/assets/fb832eff-3146-497e-baba-6113d9750083)
+
+
 Notes:
 1. This submission is a project on Crypto Coin Tracker using MERN stack 
 
@@ -32,7 +43,7 @@ How to setup and run:
 
 1. Pull the entire project from this github or download code. 
     
-2. Intsall necessery modules and dependencuies such as Node,Express,MongoDb and React and check for version compatability 
+2. Install necessery modules and dependencuies such as Node,Express,MongoDb and React and check for version compatability 
 3. Open terminal/CMD
 4. Go to corresponding directory and :
 5. for frontend: run "npm start"
