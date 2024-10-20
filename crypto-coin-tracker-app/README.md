@@ -1,4 +1,4 @@
-
+Overview of the Dashboard
 
 ![Dashboard](https://github.com/user-attachments/assets/2df8bca6-3cb8-4e69-a96d-e6f2f93eed42)
 
@@ -25,8 +25,15 @@ Notes:
 3.  For crypto coin data, I fetched from the api : https://coinmarketcap.com/api/documentation/v1/#operation/getV1ExchangeListingsLatest 
    
       For watch list I used NodeJs back end with Express JS web server and MongoDb database (Add to watchlist, Get all and delete watchlist)
+
+ Displaying all watchlists
+    
 ![Watchlist](https://github.com/user-attachments/assets/fb832eff-3146-497e-baba-6113d9750083)    
-![Watchlist](https://github.com/user-attachments/assets/c3adb7f6-3a7b-4fa8-8319-600cf5d8e990)
+
+Deleting a watchlist
+
+![Delete](https://github.com/user-attachments/assets/9cfddc7a-cbc6-4792-9d2d-86d7805dfd05)
+
 
 5.  You need to include the API key and corresponding value for the crypro-coin api
 6. Also you need to install and allow google chrome extenssion for passing CORS error:
