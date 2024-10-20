@@ -31,8 +31,8 @@ const Watchlist = () => {
   };
 
   // Function to remove an item from the watchlist
-  const handleDelete = async (symbol) => {
-    const confirmed = window.confirm(`Are you sure you want to remove ${symbol} from your watchlist?`);
+  const handleDelete = async (symbol,name) => {
+    const confirmed = window.confirm(`Are you sure you want to remove ${name} from your watchlist?`);
     if (confirmed) {
       try {
         const response = await fetch(`http://localhost:3002/watchlist?symbol=${symbol}`, {
@@ -84,7 +84,7 @@ const Watchlist = () => {
               <p>24h Change: {item.percentChange24h.toFixed(2)}%</p>
               <button className="button-delete"
                 style={{ color: "red", height: 40, width: 100 }} 
-                onClick={() => handleDelete(item.symbol)}>
+                onClick={() => handleDelete(item.symbol,item.name)}>
                 
                 <i className='fa-solid fa-trash'></i>
               </button>
