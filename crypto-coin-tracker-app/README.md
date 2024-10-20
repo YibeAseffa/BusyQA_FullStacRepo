@@ -5,10 +5,6 @@
 
 
 
-
-![Watchlist](https://github.com/user-attachments/assets/fb832eff-3146-497e-baba-6113d9750083)
-
-
 Notes:
 1. This submission is a project on Crypto Coin Tracker using MERN stack 
 
@@ -29,11 +25,13 @@ Notes:
 3.  For crypto coin data, I fetched from the api : https://coinmarketcap.com/api/documentation/v1/#operation/getV1ExchangeListingsLatest 
    
       For watch list I used NodeJs back end with Express JS web server and MongoDb database (Add to watchlist, Get all and delete watchlist)
+![Watchlist](https://github.com/user-attachments/assets/fb832eff-3146-497e-baba-6113d9750083)    
+![Watchlist](https://github.com/user-attachments/assets/c3adb7f6-3a7b-4fa8-8319-600cf5d8e990)
 
-4.  You need to include the API key and corresponding value for the crypro-coin api
-5. Also you need to install and allow google chrome extenssion for passing CORS error:
+5.  You need to include the API key and corresponding value for the crypro-coin api
+6. Also you need to install and allow google chrome extenssion for passing CORS error:
         https://chromewebstore.google.com/search/CORS
-6.  Added font awesome for icons
+7.  Added font awesome for icons
 
 I remove the node_modules file. 
 
